@@ -1,10 +1,9 @@
 <script setup>
-//引入views/layout/index.vue命名为Layout
-import Layout from "@/views/layout/index.vue";
+// 使用路由视图替代直接的Layout组件
 </script>
 
 <template>
-  <Layout></Layout>
+  <router-view></router-view>
 </template>
 
 <style scoped>
